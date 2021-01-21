@@ -8,13 +8,41 @@
     <link rel="stylesheet" href="index.css">
     <link rel="preconnect" href="https://fonts.gstatic.com"> 
 <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Yusei+Magic&display=swap" rel="stylesheet">
+<style>
+    .flex-container {
+      display: flex;
+      background-color: DodgerBlue;
+      justify-content: center;
+    }
+     .name{
+        flex-grow: 2;
+    } 
+
+    #suffix{
+        flex-shrink:1;
+    }
+
+    .flex-container > div {
+      background-color: #f1f1f1;
+      margin: 10px;
+      padding: 20px;
+      font-size: 30px;
+      align-self: center;
+    }
+
+    </style>
 </head>
 <body>
     <header class="intro"> Hey Guys! Hopefully you guys like my webpage!!</header>
+    <div class="flex-container">
+            <div class="name">Alejandro</div>
+            <div class="name">Malanche</div>
+            <div id="suffix">Jr.</div>
+    </div>
     <main>
         <section>
             <h1 class="intro">About Me</h1>
-            <p id="about">My name is Alejandro Malanche, a third year computer engineering major. Although I have not had any internships, <br>
+            <p id="about">My name is <span>Alejandro Malanche</span>, a <span>third year computer engineering major</span>. Although I have not had any internships, <br>
                I am motivated to get an internship by learning skills on my own time that will stand out and to use the <br>
                skills learned in this class to apply them in potential internships that I am in. I believe this class is gonna be very fun for us <br>
                and I cannot wait to meet all different people!!
