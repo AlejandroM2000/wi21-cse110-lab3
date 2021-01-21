@@ -1,0 +1,52 @@
+*.intro{
+    color: blue;
+    text-align: center;
+}
+
+header.intro{
+    color: rgb(250,100,100);
+    background-color: rgba(255, 255, 128, .5);
+    
+}
+
+#about{
+    color: #810;
+    border-style: dotted;
+    border-color: black;
+    border-width: 0.1cm;
+    border-radius: 2pt ;
+    height: 100pt;
+    width: 1000pt;
+    font-family: 'Hachi Maru Pop', cursive;
+    padding: 50px 50px 50px 50px;
+    margin: 50px 50px 50px 0px;
+}
+
+#lang{
+    color: hsl(6, 100%, 50%)
+}
+
+table,th,td{
+    border-style: solid;
+    border-color: black;
+    border-width:  2px;
+    border-radius: 2px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50%;
+}
+
+.skill{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #cff7fc;
+}
+
+.storyline{
+    padding: 10px 10px 10px 10px;
+    background-color: #b8ffbc;
+}
