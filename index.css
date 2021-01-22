@@ -6,7 +6,11 @@
      left: 30px;
      
 }
-
+@media screen and (max-width: 1400px) {
+    body {
+      background-color: blue;
+    }
+  }
 a:hover{
     color:rgb(9, 218, 26);
 }
