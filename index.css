@@ -90,6 +90,6 @@ table,th,td{
 }
 
 .storyline{
-    padding: 10px 10px 10px 10px;
+    padding: auto auto auto auto;
     background-color: #b8ffbc;
 }
