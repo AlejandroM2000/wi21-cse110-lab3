@@ -42,6 +42,14 @@ details + pre{
     display: block;
 }
 
+div ~ form{
+    color: lightpink;
+}
+
+h1.intro{
+    font-style: italic;
+}
+
 #about{
     color: #810;
     border-style: dotted;
@@ -78,7 +86,7 @@ table,th,td{
     padding-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    background-color: #cff7fc;
+    background-color: hsla(120,100%,75%,0.3);
 }
 
 .storyline{
